@@ -65,6 +65,7 @@ class CrayonSettings {
     const TRIM_CODE_TAG = 'trim-code-tag';
     const TAB_SIZE = 'tab-size';
     const TAB_CONVERT = 'tab-convert';
+    const SHOW_MIXED = 'show-mixed';
     const FALLBACK_LANG = 'fallback-lang';
     const LOCAL_PATH = 'local-path';
     const SCROLL = 'scroll';
@@ -203,6 +204,7 @@ class CrayonSettings {
             new CrayonSetting(self::WHITESPACE_AFTER, 0),
             new CrayonSetting(self::TRIM_CODE_TAG, TRUE),
             new CrayonSetting(self::TAB_CONVERT, FALSE),
+            new CrayonSetting(self::SHOW_MIXED, FALSE),
             new CrayonSetting(self::TAB_SIZE, 4),
             new CrayonSetting(self::FALLBACK_LANG, CrayonLangs::DEFAULT_LANG),
             new CrayonSetting(self::LOCAL_PATH, ''),
